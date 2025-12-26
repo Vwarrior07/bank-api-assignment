@@ -7,3 +7,12 @@ class BankBase(BaseModel):
 
     class Config:
         orm_mode = True
+
+class BranchBase(BaseModel):
+    id: int
+    ifsc: str
+    branch: str
+    address: str | None
+
+    class Config:
+        orm_mode = True
