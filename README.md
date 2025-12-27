@@ -128,3 +128,11 @@ pytest
 - Database-agnostic design using ORM
 - Dataset provided separately as part of the assignment
 - No proprietary or company-specific names used
+
+---
+
+## Live Deployment
+
+API is deployed and publicly accessible at:
+
+https://bank-api-assignment.onrender.com/docs
